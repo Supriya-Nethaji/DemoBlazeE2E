@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T13:20:11 IST" name="Suite" finished-at="2024-07-22T13:22:12 IST" duration-ms="120811">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T13:20:11 IST" name="Test" finished-at="2024-07-22T13:22:12 IST" duration-ms="120811">
+      <class name="test.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:20:12 IST" name="setUp" finished-at="2024-07-22T13:20:12 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:18 IST" name="browserLaunch" finished-at="2024-07-22T13:21:23 IST" duration-ms="5129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:23 IST" name="Login" data-provider="Data" finished-at="2024-07-22T13:21:30 IST" duration-ms="6448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiyam12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiyam@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:30 IST" name="closeBrowser" finished-at="2024-07-22T13:21:31 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:31 IST" name="browserLaunch" finished-at="2024-07-22T13:21:37 IST" duration-ms="5306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:37 IST" name="Login" data-provider="Data" finished-at="2024-07-22T13:21:45 IST" duration-ms="7988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiyam12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shy@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:45 IST" name="closeBrowser" finished-at="2024-07-22T13:21:45 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:45 IST" name="browserLaunch" finished-at="2024-07-22T13:21:50 IST" duration-ms="4424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:50 IST" name="Login" data-provider="Data" finished-at="2024-07-22T13:21:58 IST" duration-ms="8292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiyam@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:59 IST" name="closeBrowser" finished-at="2024-07-22T13:21:59 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:21:59 IST" name="browserLaunch" finished-at="2024-07-22T13:22:03 IST" duration-ms="4027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:22:03 IST" name="Login" data-provider="Data" finished-at="2024-07-22T13:22:11 IST" duration-ms="7860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shy123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidUserPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC002_LoginTest@1807f5a7]" started-at="2024-07-22T13:22:12 IST" name="closeBrowser" finished-at="2024-07-22T13:22:12 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC002_LoginTest -->
+      <class name="test.TC_001_SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:12 IST" name="setUp" finished-at="2024-07-22T13:20:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:13 IST" name="browserLaunch" finished-at="2024-07-22T13:20:19 IST" duration-ms="5783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignUpLinkClick(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:19 IST" name="SignUpLinkClick" data-provider="Data" finished-at="2024-07-22T13:20:28 IST" duration-ms="9147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiyam286@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiyam@286]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLinkClick -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:29 IST" name="closeBrowser" finished-at="2024-07-22T13:20:31 IST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:31 IST" name="browserLaunch" finished-at="2024-07-22T13:20:36 IST" duration-ms="4796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignUpLinkClick(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:36 IST" name="SignUpLinkClick" data-provider="Data" finished-at="2024-07-22T13:20:45 IST" duration-ms="9353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiyam12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLinkClick -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:45 IST" name="closeBrowser" finished-at="2024-07-22T13:20:47 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:47 IST" name="browserLaunch" finished-at="2024-07-22T13:20:52 IST" duration-ms="4941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignUpLinkClick(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:20:52 IST" name="SignUpLinkClick" data-provider="Data" finished-at="2024-07-22T13:21:01 IST" duration-ms="8832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiyam12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PassBlank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLinkClick -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:21:02 IST" name="closeBrowser" finished-at="2024-07-22T13:21:04 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:21:04 IST" name="browserLaunch" finished-at="2024-07-22T13:21:09 IST" duration-ms="4251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="SignUpLinkClick(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:21:09 IST" name="SignUpLinkClick" data-provider="Data" finished-at="2024-07-22T13:21:17 IST" duration-ms="8202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiyam@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UserBlank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLinkClick -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001_SignUpTest@1500b2f3]" started-at="2024-07-22T13:21:17 IST" name="closeBrowser" finished-at="2024-07-22T13:21:18 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_001_SignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -42,7 +42,6 @@ public class UtilityClass
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		
 	}
 	
 	//Read property file
