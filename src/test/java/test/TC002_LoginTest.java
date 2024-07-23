@@ -25,6 +25,7 @@ public class TC002_LoginTest extends ProjectSpecificationMethods{
 		obj1.LoginUserName(UserName);
 		obj1.LoginPassword(Password);
 		obj1.ClickLogin();
+		Thread.sleep(2000);
 		obj1.Validation(UserName,Type);
 		Thread.sleep(2000);
 		
