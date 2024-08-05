@@ -31,9 +31,9 @@ public class HomePage extends ProjectSpecificationMethods {
 		return new SignUpPage(driver);
 	}
 	
-	public LoginPage LoginLinkClick()
+	public void LoginLinkClick()
 	{
 		LoginClick.click();
-		return new LoginPage(driver);
+		
 	}
 }
