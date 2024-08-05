@@ -10,14 +10,14 @@ import base.ProjectSpecificationMethods;
 
 public class HomePage extends ProjectSpecificationMethods {
 
-	//Constructor
+	//Constructor in demoblaze
 	public HomePage(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	//Locating elements
+	//Locating elements in demoblaze
 	@FindBy(id = "signin2")
 	WebElement SignUpClick;
 	
